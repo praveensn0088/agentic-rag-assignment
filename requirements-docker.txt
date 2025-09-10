@@ -1,0 +1,20 @@
+fastapi
+uvicorn
+llama-index
+llama-index-readers-docling
+llama-index-embeddings-ollama
+llama-index-vector-stores-postgres
+llama-index-storage-docstore-postgres
+llama-index-storage-docstore-postgres
+python-dotenv
+crewai
+crewai-tools
+ragas
+datasets
+rank_bm25
+llama-index-retrievers-bm25
+docling-ibm-models[rapidocr]
+sentencepiece
+psycopg2-binary
+mlx-vlm
+-e .
