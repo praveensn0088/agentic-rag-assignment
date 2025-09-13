@@ -13,8 +13,12 @@ ragas
 datasets
 rank_bm25
 llama-index-retrievers-bm25
-docling-ibm-models[rapidocr]
+docling-ibm-models
 sentencepiece
 psycopg2-binary
 mlx-vlm
--e .
+openinference-instrumentation-crewai
+arize-phoenix-otel
+openinference-instrumentation-litellm
+# Pin numpy to avoid conflicts
+numpy<2

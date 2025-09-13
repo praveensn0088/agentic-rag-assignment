@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Python: Ingest Data",
+        "type": "debugpy",
+        "request": "launch",
+        "program": "${workspaceFolder}/src/ingesttion/ingest_md.py",
+        "console": "integratedTerminal",
+        "envFile": "${workspaceFolder}/.env"
+      }
+    ]
+}
+  
