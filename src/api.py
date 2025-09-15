@@ -46,7 +46,7 @@ load_dotenv()
 app = FastAPI(
     title="CrewAI RAG API",
     description="An API server for the agentic RAG pipeline.",
-    version="1.0.0",
+    version="1.0.0",swagger_ui_parameters={"syntaxHighlight": {"theme": "obsidian"}}
 )
 
 # Add CORS middleware to allow requests from OpenWebUI
@@ -112,7 +112,7 @@ def chat_completions(request: ChatCompletionRequest):
         "choices": [{
             "index": 0,
             "message": {
-                "role": "assistant",
+                "role": "assistant",    
                 "content": str(result), # Ensure the result is a string
             },
             "finish_reason": "stop"

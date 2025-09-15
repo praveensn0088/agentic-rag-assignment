@@ -7,7 +7,20 @@ from llama_index.vector_stores.postgres import PGVectorStore
 from llama_index.embeddings.ollama import OllamaEmbedding
 from crewai.tools import tool
 from typing import Dict, Union, Any
+from llama_index.llms.ollama import Ollama
+from llama_index.core import Settings
 
+# Database configuration - simple password without special characters
+DB_HOST = "localhost"
+DB_PORT = 5432
+DB_NAME = "rag_db"
+DB_USER = "postgres"
+DB_PASSWORD = "admin"
+
+# Construct DATABASE_URL (no need for URL encoding now)
+DATABASE_URL = f"postgresql+psycopg2://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
+
+Settings.llm = Ollama(model="llama2:7b", request_timeout=500.0)
 
 # Load environment variables to get the database URL
 load_dotenv()
@@ -61,7 +74,7 @@ def document_retrieval_tool(query: Union[str, Dict[str, Any]]) -> str:
         search_query = search_query.strip()
         print(f"DEBUG: Extracted search query: {repr(search_query)}")
         
-        DATABASE_URL = os.getenv("DATABASE_URL")
+        # DATABASE_URL = os.getenv("DATABASE_URL")
         if not DATABASE_URL:
             return "Error: DATABASE_URL environment variable not set."
 
@@ -77,8 +90,9 @@ def document_retrieval_tool(query: Union[str, Dict[str, Any]]) -> str:
         
         # Initialize the vector store with connection details and hybrid search enabled
         # Check for contextual table first, fallback to regular table
-        contextual_table = "doc_md_contextual_20250830"
-        regular_table = "doc_md_20250830_015134"
+        contextual_table = "data_doc_md_contextual_20250914"
+        regular_table = "document_embeddings"
+        
         
         # Try contextual table first
         try:
@@ -130,11 +144,19 @@ def document_retrieval_tool(query: Union[str, Dict[str, Any]]) -> str:
         query_engine = index.as_query_engine(
             vector_store_query_mode="hybrid",
             similarity_top_k=2,  # Increased from 5 to utilize maximum token capacity
-            sparse_top_k=2       # Increased from 5 to get more comprehensive context
+            sparse_top_k=2      # Increased from 5 to get more comprehensive context
         )
         
         # Query using hybrid search (combines vector + text search)
         response = query_engine.query(search_query)
+
+        print("LLM Answer:", getattr(response, "response", None))
+        print("Source Nodes:", getattr(response, "source_nodes", []))
+
+        for node in response.source_nodes:
+            print("Score:", node.score)
+            print("Content:", node.get_content()[:200])
+
         retrieved_nodes = response.source_nodes
         
         if not retrieved_nodes:
@@ -173,7 +195,7 @@ def document_retrieval_tool(query: Union[str, Dict[str, Any]]) -> str:
             formatted_chunks.append(formatted_chunk)
         
         context = "\n\n" + "="*50 + "\n\n".join(formatted_chunks)
-        
+        print(f"context docs from pgvector = ",context)
         return context
     except Exception as e:
         return f"Error retrieving documents: {str(e)}"

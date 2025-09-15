@@ -1,3 +1,38 @@
+// {
+//   "version": "0.2.0",
+//   "configurations": [
+//     {
+//       "name": "Python: FastAPI (Uvicorn)",
+//       "type": "debugpy",
+//       "request": "launch",
+//       "module": "uvicorn",
+//       "args": [
+//         "src.api:app",         // module:variable
+//         "--host", "0.0.0.0",
+//         "--port", "9005"
+//       ],
+//       "jinja": true,
+//       "console": "integratedTerminal",
+//       "envFile": "${workspaceFolder}/.env"
+//     }
+//   ]
+// }
+
+
+// {
+//   "version": "0.2.0",
+//   "configurations": [
+//     {
+//       "name": "Python: Ingest Data",
+//       "type": "debugpy",
+//       "request": "launch",
+//       "program": "${workspaceFolder}/src/evaluation/run_ragas_eval.py",
+//       "console": "integratedTerminal",
+//       "envFile": "${workspaceFolder}/.env"
+//     }
+//   ]
+// }
+
 {
     "version": "0.2.0",
     "configurations": [
@@ -5,10 +40,22 @@
         "name": "Python: Ingest Data",
         "type": "debugpy",
         "request": "launch",
-        "program": "${workspaceFolder}/src/ingesttion/ingest_md.py",
+        "program": "${workspaceFolder}/src/ingesttion/ingestion_docling.py",
         "console": "integratedTerminal",
         "envFile": "${workspaceFolder}/.env"
       }
     ]
 }
-  
+// {
+//   "version": "0.2.0",
+//   "configurations": [
+//     {
+//       "name": "Python: Run app.py",
+//       "type": "debugpy",
+//       "request": "launch",
+//       "program": "${workspaceFolder}/main.py", 
+//       "console": "integratedTerminal",
+//       "envFile": "${workspaceFolder}/.env"
+//     }
+//   ]
+// }

@@ -4,40 +4,36 @@
 
 <!-- image -->
 
-Document Title
-
-Abu Dhabi Procurement Standards
-
-Version
-
-V 1.0
-
-Date Published
-
-18th April 2021
+| Document Title   | Abu Dhabi Procurement Standards   |
+|------------------|-----------------------------------|
+| Version          | V 1.0                             |
+| Date Published   | 18th April 2021                   |
 
 | Version   | Date            | Author                        | Approver                    |
 |-----------|-----------------|-------------------------------|-----------------------------|
 | V 1.0     | 24th March 2021 | Government Procurement Office | Abu Dhabi Executive Council |
 
-Issued By
-
-H.E. Ali Rashed Al Ketbi Chairman, Department of Government Support - Abu Dhabi
-
 <!-- image -->
 
 ## Index
 
-| Introduction to the Procurement Framework..............................................................................................                             | 3   |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
-| Definition of the Procurement ......................................................................................................................                | 4   |
-| Core Principles................................................................................................................................................     | 5   |
-| Code of Ethics.................................................................................................................................................     | 6   |
-| Procurement Standards...............................................................................................................................10              |     |
-| Establishment Standards..........................................................................................................................10                 |     |
-| Enablement Standards.............................................................................................................................13                 |     |
-| Execution Standards.................................................................................................................................19              |     |
-| Glossary.........................................................................................................................................................57 |     |
+Introduction to the Procurement Framework  .............................................................................................. 3
+
+Definition of the Procurement ...................................................................................................................... 4
+
+Core Principles  ................................................................................................................................................ 5
+
+Code of Ethics ................................................................................................................................................. 6
+
+Procurement Standards ............................................................................................................................... 10
+
+Establishment Standards  .......................................................................................................................... 10
+
+Enablement Standards ............................................................................................................................. 13
+
+Execution Standards  ................................................................................................................................. 19
+
+Glossary  ......................................................................................................................................................... 57
 
 <!-- image -->
 
@@ -45,13 +41,27 @@ H.E. Ali Rashed Al Ketbi Chairman, Department of Government Support - Abu Dhabi
 
 The Procurement Framework is a set of interrelated documents devised to help the Procurement Practitioners  in  their  work.  It  explains  the  recommended  approach  and  best  practices  for procurement operations.
 
+Defines the professional practice of the Procurement
+
+Define key values, behaviours, and approaches for the Procurement
+
+Defines key ethical principles for the Procurement
+
+Set  principles  that  harmonise  the  way  of  working  and define the performance expectations
+
+- A  formal  document  defining  the  roles  and  committees required for the procurement operations
+
+A formal document having all the financial and non-financial authorisers related to all procurement activities
+
+Guide the application of the Standards to ensure accurate and  effective  implementation  of  standardised  processes, operating model, organisation, and IT systems
+
+Allows the government entity to adopt the Standards to local settings
+
+Give working aids facilitating practical side of the implementation
+
 Figure 1: Procurement Framework
 
 <!-- image -->
-
-STANDARDS
-
-GUIDELINES
 
 <!-- image -->
 
@@ -71,45 +81,17 @@ The  Core  Principles  define  key  values  and  approaches  for  the  effective
 
 The Procurement Framework establishes the following ten integrated Core Principles:
 
-- A Ability
-
-Develop  procurement  workforce  with  right  capacity,  capabilities and knowledge ensuring professionalism while providing attractive, competitive career options
-
-- B Accountability
-
-Support accountability through the establishment or enhancement of authorities and ensure internal and external control mechanisms are coordinated and integrated into procurement operations
-
-- C Digital
-
-Promote  digital  technologies  and  facilitate  their  adoption  and development  by  enabling  access  to  innovations  and  emerging digital solutions
-
-- D Effectiveness
-
-Drive cost-effectiveness and improvement in performance of the Procurement  through  economies  of  scale,  specialisation,  and continuous assessment
-
-- E Excellence
-
-Deliver  efficiency  and  achieve  greater  value  for  money  and  high level of control through the development of streamlined processes and tools
-
-- F Fairness
-
-Facilitate access to procurement opportunities for potential Suppliers  through  establishing  a  fair  regulatory  framework  and implementing transparency and open-door attitude
-
-- G Integration
-
-Support integration of the Procurement with relevant organisational  functions  within  the  government  entity,  ensuring services delivered are comprehensive and a seamless flow of operations is maintained
-
-- H Integrity
-
-Preserve high standards of integrity and neutrality in the Procurement  through  the  implementation  of  standards,  code  of business ethics and internal controls
-
-- I Sustainability
-
-Ensure continuity and stability of supply through the integration of risk  management  practices  and  the  establishment  of  control mechanisms in procurement operations making them sustainable
-
-- J Transparency
-
-Ensure an adequate degree of transparency by allowing free access to procurement information, compliance with applicable legislations, and promoting fair treatment of Suppliers
+| A   | Ability        | Develop procurement workforce with right capacity, capabilities and knowledge ensuring professionalism while providing attractive, competitive career options                                             |
+|-----|----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| B   | Accountability | Support accountability through the establishment or enhancement of authorities and ensure internal and external control mechanisms are coordinated and integrated into procurement operations             |
+| C   | Digital        | Promote digital technologies and facilitate their adoption and development by enabling access to innovations and emerging digital solutions                                                               |
+| D   | Effectiveness  | Drive cost-effectiveness and improvement in performance of the Procurement through economies of scale, specialisation, and continuous assessment                                                          |
+| E   | Excellence     | Deliver efficiency and achieve greater value for money and high level of control through the development of streamlined processes and tools                                                               |
+| F   | Fairness       | Facilitate access to procurement opportunities for potential Suppliers through establishing a fair regulatory framework and implementing transparency and open-door attitude                              |
+| G   | Integration    | Support integration of the Procurement with relevant organisational functions within the government entity, ensuring services delivered are comprehensive and a seamless flow of operations is maintained |
+| H   | Integrity      | Preserve high standards of integrity and neutrality in the Procurement through the implementation of standards, code of business ethics and internal controls                                             |
+| I   | Sustainability | Ensure continuity and stability of supply through the integration of risk management practices and the establishment of control mechanisms in procurement operations making them sustainable              |
+| J   | Transparency   | Ensure an adequate degree of transparency by allowing free access to procurement information, compliance with applicable legislations, and promoting fair treatment of Suppliers                          |
 
 <!-- image -->
 
@@ -194,23 +176,23 @@ Ensure an adequate degree of transparency by allowing free access to procurement
 
 ## Procurement Standards Contents
 
-| Establishment Standards .............................................................................................................................10    |    |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------|----|
-| Section 1: Purpose, Scope and Structure of the Procurement Standards.........................................                                              | 10 |
-| Section 2: Application of the Procurement Standards .......................................................................                                | 11 |
-| Enablement Standards.................................................................................................................................13    |    |
-| Section 3: Procurement Function........................................................................................................                    | 13 |
-| Section 4: Procurement Clients and Partners .....................................................................................                          | 15 |
-| Section 5: Procurement Governance and Communication................................................................                                        | 16 |
-| Section 6: Procurement Function Performance .................................................................................                              | 16 |
-| Section 7: Procurement Reporting ......................................................................................................                    | 17 |
-| Execution Standards.....................................................................................................................................19 |    |
-| Section 8: Procurement Strategy.........................................................................................................                   | 19 |
-| Section 9: Demand and Category Management.................................................................................                                 | 20 |
-| Section 10: Source to Contract ............................................................................................................                | 25 |
-| Section 11: Contract Lifecycle Management ......................................................................................                           | 40 |
-| Section 12: Supplier Relationship Management.................................................................................                              | 47 |
-| Section 13: Requisition to Pay..............................................................................................................               | 50 |
+| Establishment Standards .............................................................................................................................10    |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Section 1: Purpose, Scope and Structure of the Procurement Standards......................................... 10                                           |
+| Section 2: Application of the Procurement Standards ....................................................................... 11                             |
+| Enablement Standards.................................................................................................................................13    |
+| Section 3: Procurement Function........................................................................................................ 13                 |
+| Section 4: Procurement Clients and Partners ..................................................................................... 15                       |
+| Section 5: Procurement Governance and Communication................................................................ 16                                     |
+| Section 6: Procurement Function Performance ................................................................................. 16                           |
+| Section 7: Procurement Reporting ...................................................................................................... 17                 |
+| Execution Standards.....................................................................................................................................19 |
+| Section 8: Procurement Strategy......................................................................................................... 19                |
+| Section 9: Demand and Category Management................................................................................. 20                              |
+| Section 10: Source to Contract ............................................................................................................ 25             |
+| Section 11: Contract Lifecycle Management ...................................................................................... 40                        |
+| Section 12: Supplier Relationship Management................................................................................. 47                           |
+| Section 13: Requisition to Pay.............................................................................................................. 50            |
 
 <!-- image -->
 
@@ -240,8 +222,6 @@ The Establishment Standards explain the overall Procurement Framework defined to
 - A3. The  Execution  Standards  define  the  way  of  working  and  expected  performance  of  the Procurement with the criteria against which to measure it. They split procurement into strategic, tactical and operational processes.
 - The Procurement Standards as a document is organised into sections containing enumerated standards. B
 
-Abu Dhabi Procurement Standards
-
 <!-- image -->
 
 ## Section 2: Application of the Procurement Standards
@@ -269,8 +249,6 @@ Abu Dhabi Procurement Standards
 
 - The head of the Procurement shall prepare and maintain a quality assurance and improvement program that covers all aspects of the procurement function. A
 
-Abu Dhabi Procurement Standards
-
 <!-- image -->
 
 - The head of the Procurement shall obtain approval of the quality assurance and improvement program from the Procurement Committee. B
@@ -291,7 +269,7 @@ The Enablement Standards define the attributes of functions and individuals invo
 ## 3.1. Procurement Charter
 
 - The  Procurement  Charter  defines  the  obligatory  roles  in  the  procurement  function  and mechanism of its governance in line with the Procurement Framework. A
-- The Procurement Charter defines the committees required for the procurement operations, in particular  the  roles  and  responsibilities  of  the  Procurement  Committee  and  the  Tendering Committee. B
+- The Procurement Charter defines the committees required for the procurement operations, in particular  the  roles  and  responsibilities  of  the  Procurement  Committee  and  the  Tendering Committee.
 - The head of the Procurement shall ensure that procurement operations are in accordance with the Procurement Charter. C.
 
 ## 3.2. Types of Procurement
@@ -311,15 +289,14 @@ The Enablement Standards define the attributes of functions and individuals invo
 - This unit may be established within or outside of the government entity and shall be independent of the other units of the government entity. It shall be empowered and capable of executing the duties and responsibilities entrusted to the Procurement. B
 - The role of the head of the Procurement shall be assigned to an executive level position or to a position  reporting  to  an  executive  level  that  enables  the  Procurement  to  fulfil  its  assigned responsibilities. C.
 
-Abu Dhabi Procurement Standards
-
 <!-- image -->
 
 - The Procurement must conduct its activities through professional staff consisting of individuals, the  Procurement  Practitioners,  possessing  academic  qualifications,  professional  certificates, practical experience and skills needed to perform assigned responsibilities. D
 
 ## 3.4. Information Technology Platform and Master Data
 
-- The Procurement shall: A
+## The Procurement shall: A
+
 - A1. Utilise an information technology platform for the procurement operations, the Procurement Gate.
 - A2. Manage access of the Procurement Practitioners, other relevant employees and external parties to the Procurement Gate and granting required authorizations.
 - A3. Manage the Category Hierarchy for goods, services and projects, which shall serve as a primary structure for planning, execution and reporting.
@@ -327,7 +304,7 @@ Abu Dhabi Procurement Standards
 ## 3.5. Roles of the Procurement Practitioners
 
 - The head of the Procurement of each government entity shall identify and document the roles and  duties  of  the  Procurement  Practitioners  ensuring  compliance  with  the  Procurement Standards. A
-- The roles must be created in alignment with the strategic, tactical and operational processes defined by the Execution Standards. B
+- The roles must be created in alignment with the strategic, tactical and operational processes defined by the Execution Standards.
 
 ## 3.6. Procurement Internal Controls
 
@@ -339,8 +316,6 @@ Abu Dhabi Procurement Standards
 
 - The Procurement Delegation of Authority, the PDoA, shall describe division of authority and powers in the government entity related to procurement operations. A
 - The PDoA must contain all the financial and non-financial authorisers related to all procurement activities. B
-
-Abu Dhabi Procurement Standards
 
 <!-- image -->
 
@@ -402,8 +377,6 @@ Abu Dhabi Procurement Standards
 - A. The  head  of  the  Procurement  shall  prepare  on  an  annual  basis  an  internal  plan  of  the procurement function, the Procurement Function Plan, that shall at the minimum include:
 2. A1. The  outcomes  and  outputs  of  the  procurement  function  aligned  to  the  procurement strategy
 3. A2. The targets for outcomes and outputs with relevant performance measures
-
-Abu Dhabi Procurement Standards
 
 <!-- image -->
 
@@ -534,7 +507,7 @@ The  Execution  Standards  define  the  necessary  practices,  rules  and  contr
 - The Procurement shall collaborate with the End-users to identify if the required goods, services or  projects  involve  Intellectual  Property,  including  Background  Intellectual  Property  and Foreground Intellectual Property. A
 - The Procurement shall ensure that the End-users justify any requests to transfer, license, retain or share the ownership of Intellectual Property not owned by the government entity, such a request may be supported by a business case developed by the End-users. B
 - The  Procurement  shall  consult  with  the  Legal  and  the  End-users  to  ensure  that  relevant provisions are included in the solicitation and contract documents and communicated to the Suppliers, in case the Intellectual Property not owned by the government entity is required to be transferred, licensed, retained or shared. C.
-- The Procurement shall consult with the Legal and the End-users to ensure that the Intellectual Property  owned  by  the  government  entity  is  protected  through  relevant  provisions  in  the solicitation and contract documents. D.
+- The Procurement shall consult with the Legal and the End-users to ensure that the Intellectual Property  owned  by  the  government  entity  is  protected  through  relevant  provisions  in  the solicitation and contract documents.
 
 ## 9.5. Consolidated Annual Demand
 
@@ -577,7 +550,7 @@ The  Execution  Standards  define  the  necessary  practices,  rules  and  contr
 ## 9.9. Procurement Plan
 
 - Procurement planning determines how best to fulfil the requirements captured from within the government entity. Its objective is to balance supply and demand so that the government entity achieves the financial and service delivery objectives. A
-- The  procurement  plan  focuses  on  the  examination  of  operating  contracts  and  selection  of sourcing methods to renew existing or creating new supply agreements. B
+- The  procurement  plan  focuses  on  the  examination  of  operating  contracts  and  selection  of sourcing methods to renew existing or creating new supply agreements.
 - The procurement plan defines all requirements for goods, services and projects to be procured over  a  period  of  time.  It  establishes  the  high-level  timelines  for  the  sourcing  events.  The Procurement shall use the procurement plan to consolidate similar requirements under same contracts. C.
 - The Procurement shall at the minimum consider the following parameters while preparing the procurement plan: D .
 - D1. Needs and requirements
@@ -602,7 +575,7 @@ The  Execution  Standards  define  the  necessary  practices,  rules  and  contr
 ## 9.11. Stakeholder Collaboration
 
 - The  Procurement  shall  identify  key  stakeholders  involved  in  procurement  operations,  their interests  and  relative  importance.  Internal  and  external  stakeholders  can  include  partners, Suppliers, the End-users, management, the Finance, the Legal and subject matter experts. A
-- The  Procurement  shall  identify  stakeholders  required  for  successful  procurement  planning, along with their expected contribution. The procurement planning, especially any exchange of information and correspondence with the stakeholders, shall be documented for traceability and probity. B
+- The  Procurement  shall  identify  stakeholders  required  for  successful  procurement  planning, along with their expected contribution. The procurement planning, especially any exchange of information and correspondence with the stakeholders, shall be documented for traceability and probity.
 
 ## 9.12. Benefits Tracking
 
@@ -621,9 +594,7 @@ The  Execution  Standards  define  the  necessary  practices,  rules  and  contr
 ## 10.1. Introduction
 
 - The Procurement through the source to contract shall identify the right Suppliers to fulfil the government  entity's  requirements  for  goods,  services  and  projects  efficiently  and  costeffectively. The Procurement shall manage the source to contract cycle ensuring collaboration of the End-users, the Finance and the Legal, and engaging Suppliers when necessary. A
-- The course of the source to contract cycle includes gathering specifications and requirements, identification  of  appropriate  sourcing  methods,  preparation  of  solicitation  documents  and execution of solicitation. The Procurement shall ensure evaluation of offers received, conduct negotiations and award contracts to the most suitable Suppliers. B
-
-Abu Dhabi Procurement Standards
+- The course of the source to contract cycle includes gathering specifications and requirements, identification  of  appropriate  sourcing  methods,  preparation  of  solicitation  documents  and execution of solicitation. The Procurement shall ensure evaluation of offers received, conduct negotiations and award contracts to the most suitable Suppliers.
 
 <!-- image -->
 
@@ -686,8 +657,6 @@ Abu Dhabi Procurement Standards
 - A2. The Request for Proposal, RFP for short, shall be used for seeking proposals from Suppliers. The RFP is best suited for situations where the End-users know what they want to achieve and  rely  on  Suppliers  to  propose  the  solution.  The  RFP  relies  on  the  experience  and creativity  of  Suppliers  to  define  the  best  solution  and  may  be  followed  by  the  RFQ  or negotiations.
 - A3. The Request for Quotation, RFQ for short, shall be used for seeking pricing information for a defined scope of work or supply of specified goods or services. The specifications, terms and expectations must be defined in the RFQ.
 - A4. The Reverse Auction may be used as an alternative to the RFQ for highly commoditised goods, services and projects or where specifications have already been fully acknowledged by participating Suppliers. The Reverse Auction shall be conducted between a number of
-
-Abu Dhabi Procurement Standards
 
 <!-- image -->
 
@@ -784,8 +753,6 @@ pre-selected  Suppliers  registered  for  the  category  to  help  achieve  the 
 - A2. Supplier queries regarding the solicitation shall be submitted through the Procurement Gate. The Procurement shall draft responses seeking input from the End-users or subject matter experts if required. The list of queries and clarifications shall be made available to all competing Suppliers to promote transparency and probity.
 - A3. Amendment to the solicitation document shall be issued by the Procurement, if there is a material change in the scope of work, specifications, quantities, delivery schedules, terms and  conditions,  or  to  clarify  any  ambiguity  or  errors  in  the  solicitation  document.  The
 
-Abu Dhabi Procurement Standards
-
 <!-- image -->
 
 amendment shall be issued immediately to all competing Suppliers, and bid submission date shall be suitably revised to give appropriate time for the submission of responses. The Procurement  shall  ensure  that  amendment  to  solicitation  has  a  valid  and  approved business justification.
@@ -810,8 +777,6 @@ amendment shall be issued immediately to all competing Suppliers, and bid submis
 - A5. Experience of Supplier and personnel proposed
 - A6. Capability and capacity of the Supplier
 - A7. Supplier's  management  practices  and  performance  on  occupational  health  and  safety, workplace and industrial relations and environment sustainability
-
-Abu Dhabi Procurement Standards
 
 <!-- image -->
 
@@ -842,7 +807,8 @@ Abu Dhabi Procurement Standards
 - A4. There is a potential to drive down the prices
 - A5. In case of Sole Source or Single Source tenders
 - The Procurement may conduct negotiations with the most competitive qualified Suppliers if such option  has  been  defined  in  the  solicitation  document  or  if  approved  by  the  head  of  the Procurement. B
-- The  Procurement  may  request  approval  from  the  head  of  the  Procurement  not  to  conduct negotiations if the estimated cost of delay to the project outweighs the potential benefits. C.
+- The  Procurement  may  request  approval  from  the  head  of  the  Procurement  not  to  conduct C.
+- negotiations if the estimated cost of delay to the project outweighs the potential benefits.
 - The Procurement shall adhere to the following guidelines while entering negotiations: D.
 - D1. Original and negotiated offers shall remain confidential and must not be discussed with other Suppliers.
 - D2. Suppliers shall not be given the impression that entering negotiations in any way assures them of success.
@@ -869,7 +835,7 @@ Abu Dhabi Procurement Standards
 ## 10.22. Resolving Ties
 
 - The Procurement shall resolve situations where tie exists between two or more Suppliers' offers having identical prices that meet all specifications, terms, and conditions. A
-- In cases of the tie and if possible and agreed by Suppliers, the Procurement shall allocate Multiple Awards for the contract. B
+- In cases of the tie and if possible and agreed by Suppliers, the Procurement shall allocate Multiple Awards for the contract.
 - In case it is not feasible to split the contract, the Procurement may resolve the tie by considering the following factors: C.
 - C1. Preference for goods manufactured or produced within the state
 - C2. Preference for local Suppliers and underrepresented businesses
@@ -966,8 +932,6 @@ In the event the successful Supplier withdraws or rejects the award, the Procure
 - The contract templates, terms and conditions shall be periodically reviewed and approved for use by the Legal and the Finance. G
 - If  the  standard  contract  templates,  terms  and  conditions  require  change  as  an  outcome  of negotiations with the Supplier, or due to specific procurement requirements, then the modified contract template and terms and conditions shall be subject to approval from the Legal and the Finance. H
 
-Abu Dhabi Procurement Standards
-
 <!-- image -->
 
 ## 10.29. Contract Review and Signing
@@ -1029,7 +993,7 @@ Abu Dhabi Procurement Standards
 - The Procurement shall assess the request for amending contracts submitted by the End-users or Suppliers.  Amendments  to  contracts  shall  be  acknowledged  and  signed  by authorised representatives of the government entity and Supplier. The Procurement shall handle contract amendments by the type of amendment requested: A
 - A1. Administrative amendments refer to changes that do not affect or alter the rights of the government entity or Supplier. These include, but are not limited to, changes in billing instruction or address, corrections of typographical errors, and other changes permitted by  contract  clauses.  Administrative  amendments  do  not  cause  a  financial  nor  material impact.  The  Procurement  Practitioners  responsible  for  administering  the  contract  shall process all administrative amendments and shall inform all involved stakeholders such as the Finance, the Legal, the End-users and the Suppliers.
 - A2. Substantive  amendments  refer  to  changes  in  the  contract  that  affect  the  rights  and obligations  of  the  government  entity  or  Supplier.  They  include  but  are  not  limited  to, changes  in  prices,  schedules,  quantities,  scope,  specification,  terms  and  conditions. Approval of the substantive amendment shall be obtained from the relevant authority as per the PDoA.
-- The Procurement shall seek endorsement from the Legal, the Finance, the End-users or the subject matter expert as per the nature of the amendments. B
+- The Procurement shall seek endorsement from the Legal, the Finance, the End-users or the subject matter expert as per the nature of the amendments.
 - While amending contract relating to the procurements of projects, the Procurement shall verify the  agreement  of  the  End-user  of  the  project  and  if  necessary  consult  with  the  Tendering Committee. C.
 - The Procurement shall seek updates to guarantees, performance bonds and advanced payment guarantees from the Supplier as applicable for the amended contract. D .
 - The Procurement  shall issue an amendment  to  the  order or shall issue new  order accommodating the contract amendment to allow for its execution. E
@@ -1068,8 +1032,7 @@ Abu Dhabi Procurement Standards
 
 <!-- image -->
 
-requirements as per the contract after consultation with the Legal. The Procurement may seek inputs from the End-users or the Finance.
-
+- requirements as per the contract after consultation with the Legal. The Procurement may seek inputs from the End-users or the Finance.
 - The  Procurement  shall  ensure  documentation  of  the  claims  substantiated  with  details  of Supplier's  failure  to  perform  or  to  meet  contractual  obligations  and  the  resulting  monetary implication. Claims shall be enforced through penalties, liquidated damages and other applicable terms and conditions. B
 - The  Procurement  shall  ensure  the  Finance  is  immediately  notified  after  the  identification  of issues  that  may  lead  to  potential  claims  and  disputes.  The  Procurement  shall  ensure  that invoices, advanced payment guarantees and performance bonds are put on hold until claims are resolved. C.
 - The Procurement shall communicate raised claims to the Suppliers. If there are no objections by the Suppliers, then the claims settlement shall be managed by the Finance. D .
@@ -1088,8 +1051,6 @@ requirements as per the contract after consultation with the Legal. The Procurem
 - The  termination  for  default  shall  be  initiated  by  the  Procurement.  The  End-users  may  also request the Procurement to initiate the process of termination for default. A
 - The Procurement shall give the Supplier a sufficient cure period to rectify performance issues and meet its contractual obligations. Termination for default shall be used as a last resort and shall be invoked including but not limited to the following circumstances: B
 - B1. Continuous unsatisfactory performance of Supplier putting the contract execution at risk
-
-Abu Dhabi Procurement Standards
 
 <!-- image -->
 
@@ -1115,8 +1076,6 @@ Abu Dhabi Procurement Standards
 
 - The  contract  shall  be  deemed  fulfilled  when  both  the  government  entity  and  Supplier  have fulfilled  their  contractual  obligations  and  no  responsibilities  remain.  The  contract  shall  be considered fulfilled when: A
 - A1. All goods, services and projects have been received and accepted
-
-Abu Dhabi Procurement Standards
 
 <!-- image -->
 
@@ -1171,7 +1130,7 @@ Abu Dhabi Procurement Standards
 ## 12.4. Supplier Segmentation
 
 - The Procurement shall segment Suppliers to manage and grow Supplier relationships, with the objective of increasing mutual benefits, optimising value from the relationship, and preventing supply disruptions. A
-- The Procurement shall consider at the minimum the following aspects while segmenting the Suppliers: B
+- The Procurement shall consider at the minimum the following aspects while segmenting the Suppliers:
 - B1. Bargaining power of the Supplier
 - B2. Spend with the Supplier
 - B3. Supplier's potential to grow, innovate and collaborate
@@ -1268,8 +1227,6 @@ Abu Dhabi Procurement Standards
 - The  Purchase  Order  is  a  written  contract  between  the  government  entity  and  Suppliers  to procure goods, services and projects in reference to the Contract or the Price List Agreement or on a standalone basis. The Procurement is the only function allowed to create and issue orders to Suppliers. A
 - Every line item in the Purchase Order shall be assigned to one of the categories following the Category Hierarchy. B
 
-Abu Dhabi Procurement Standards
-
 <!-- image -->
 
 - The Procurement shall adhere to the following principles when creating an order:
@@ -1341,8 +1298,6 @@ Abu Dhabi Procurement Standards
 - The Procurement shall ensure that the inspection of goods, services and projects is performed by the receiving End-users or subject matter experts responsible for undertaking this task. The inspection shall focus on the quantity and quality of the received goods, services and projects. It shall determine conformance to the acceptance criteria, requirements and terms and conditions of the Purchase Order taking into consideration the Tolerances. C.
 - The Procurement shall ensure that received goods, executed services and projects are recorded in the Procurement Gate without unnecessary delay. If a partial delivery is made a partial receipt shall be entered. D.
 
-Abu Dhabi Procurement Standards
-
 <!-- image -->
 
 ## 13.14. Managing Returns
@@ -1373,8 +1328,6 @@ Abu Dhabi Procurement Standards
 
 - The  Procurement  shall  ensure  that  the  End-users  raise  disputes  for  services  and  projects purchases covering but not limited to the following scenarios: A
 - A1. Failure to perform or fulfil contractual obligations
-
-Abu Dhabi Procurement Standards
 
 <!-- image -->
 
@@ -1454,20 +1407,10 @@ Abu Dhabi Procurement Standards
 
 <!-- image -->
 
-Delivery Terms
-
-Terms that specify the responsibilities of Suppliers for the delivery of goods and services.
-
-Tolerances
-
-Acceptable variations in price, quantity and physical parameters of delivered goods.
-
-Dispute Resolution
-
-Mechanism of resolving disputes between contracting parties.
-
-Conditions of Termination
-
-Conditions under which the Contract may be terminated
+| Delivery Terms            | Terms that specify the responsibilities of Suppliers for the delivery of goods and services.   |
+|---------------------------|------------------------------------------------------------------------------------------------|
+| Tolerances                | Acceptable variations in price, quantity and physical parameters of delivered goods.           |
+| Dispute Resolution        | Mechanism of resolving disputes between contracting parties.                                   |
+| Conditions of Termination | Conditions under which the Contract may be terminated                                          |
 
 -- The End -

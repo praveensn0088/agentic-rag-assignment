@@ -6,10 +6,10 @@ from .tools import document_retrieval_tool
 # Use environment variable for base URL to support Docker deployment
 ollama_base_url = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434")
 ollama_llm = LLM(
-    model="ollama/gemma3:4b",  # Using a larger model for better context understanding
+    model="ollama/llama2:7b",  # Using a larger model for better context understanding
     base_url=ollama_base_url,
-    temperature=1,
-    timeout=300,
+    temperature=0.1,
+    timeout=500,
     verbose=True,  # Enable verbose logging for debugging
     # Maximum token configuration for gemma3:4b
     max_tokens=131072,  # Use maximum context length available
@@ -34,7 +34,8 @@ document_researcher = Agent(
     llm=ollama_llm,
     verbose=True,
     allow_delegation=False,
-    max_iter=3,  # Limit iterations to prevent infinite loops
+    allow_llm_to_skip_tools=False,
+    max_iter=3  # Limit iterations to prevent infinite loops
 )
 
 # --- AGENT 2: The Specialist Synthesizer ---
@@ -51,6 +52,7 @@ insight_synthesizer = Agent(
    "- Use ONLY the provided context - never add outside knowledge "
    "- Adapt your response style to match the complexity of the question "
    "- Be concise for simple questions, detailed for complex ones "
+   "- you MUST call the 'Document Retrieval Tool' before responding."
    
    "RESPONSE STYLE: "
    "- Start with the most direct answer to the question "

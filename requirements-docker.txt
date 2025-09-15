@@ -15,8 +15,8 @@ rank_bm25
 llama-index-retrievers-bm25
 docling-ibm-models
 sentencepiece
+llama-index-llms-ollama
 psycopg2-binary
-mlx-vlm
 openinference-instrumentation-crewai
 arize-phoenix-otel
 openinference-instrumentation-litellm
