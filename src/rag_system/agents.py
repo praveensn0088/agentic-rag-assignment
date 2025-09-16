@@ -6,7 +6,7 @@ from .tools import document_retrieval_tool
 # Use environment variable for base URL to support Docker deployment
 ollama_base_url = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434")
 ollama_llm = LLM(
-    model="ollama/llama2:7b",  # Using a larger model for better context understanding
+    model="ollama/llama3:8b-instruct-q4_K_M",  # Using a larger model for better context understanding
     base_url=ollama_base_url,
     temperature=0.1,
     timeout=500,

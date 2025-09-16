@@ -20,7 +20,7 @@ DB_PASSWORD = "admin"
 # Construct DATABASE_URL (no need for URL encoding now)
 DATABASE_URL = f"postgresql+psycopg2://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
 
-Settings.llm = Ollama(model="llama2:7b", request_timeout=500.0)
+Settings.llm = Ollama(model="llama3:8b-instruct-q4_K_M", request_timeout=500.0)
 
 # Load environment variables to get the database URL
 load_dotenv()

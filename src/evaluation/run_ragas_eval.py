@@ -101,7 +101,7 @@ async def main():
         context_precision,  # Was the retrieved context precise and not full of noise?
     ]
 
-    Settings.llm = Ollama(model="llama2:7b", request_timeout=500.0)
+    Settings.llm = Ollama(model="llama3:8b-instruct-q4_K_M", request_timeout=500.0)
 
     # Run the evaluation
     result = evaluate(

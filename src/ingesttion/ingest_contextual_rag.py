@@ -47,9 +47,9 @@ DATABASE_URL = f"postgresql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NA
 TABLE_NAME = "doc_md_contextual_20250914"
 EMBED_DIM = 768
 
-Settings.llm = Ollama(model="llama2:7b")
+Settings.llm = Ollama(model="llama3:8b-instruct-q4_K_M")
 # Contextual RAG Configuration
-CONTEXT_LLM_MODEL = "llama2:7b"
+CONTEXT_LLM_MODEL = "llama3:8b-instruct-q4_K_M"
 OLLAMA_BASE_URL = "http://localhost:11434"
 
 # Prompts for contextual retrieval
@@ -203,8 +203,8 @@ def create_contextual_nodes(nodes: List[TextNode], whole_document: str) -> List[
             
             enhanced_nodes.append(enhanced_node)
             
-            # Log progress every 50 nodes
-            if (i + 1) % 50 == 0:
+            # Log progress every 10 nodes
+            if (i + 1) % 10 == 0:
                 logger.info(f"Generated context for {i + 1}/{len(nodes)} nodes")
                 
         except Exception as e:
