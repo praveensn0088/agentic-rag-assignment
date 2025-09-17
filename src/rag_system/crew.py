@@ -10,10 +10,20 @@ def create_rag_crew(query: str):
 
     # Task for the Document Researcher agent
     # This task focuses exclusively on using the tool to find information.
+    # research_task = Task(
+    #     description=f"Find relevant information in the policy and standards documents for the query: '{query}'.",
+    #     expected_output="A block of text containing chunks of the most relevant document sections and their source file names.",
+    #     agent=document_researcher
+    # )
+
     research_task = Task(
-        description=f"Find relevant information in the policy and standards documents for the query: '{query}'.",
-        expected_output="A block of text containing chunks of the most relevant document sections and their source file names.",
-        agent=document_researcher
+        description=f"Answer the query: '{query}' using the Document Retrieval Tool exactly once. "
+                "After retrieving, summarize the content. "
+                "IMPORTANT: End your response with 'Final Answer: <your answer>'. "
+                    "Do not call tools again after this.",
+        expected_output="Final Answer: <summary with relevant content + sources>",
+        agent=document_researcher,
+        async_execution=False  # ensure sequential execution
     )
 
     # Task for the Insight Synthesizer agent
