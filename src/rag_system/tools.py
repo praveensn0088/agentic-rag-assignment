@@ -9,6 +9,7 @@ from crewai.tools import tool
 from typing import Dict, Union, Any
 from llama_index.llms.ollama import Ollama
 from llama_index.core import Settings
+from sentence_transformers import CrossEncoder
 
 # Database configuration - simple password without special characters
 DB_HOST = "localhost"
@@ -21,6 +22,9 @@ DB_PASSWORD = "admin"
 DATABASE_URL = f"postgresql+psycopg2://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
 
 Settings.llm = Ollama(model="llama3:8b", request_timeout=500.0, max_tokens=1024)
+
+# Load reranker model once (keep global for efficiency)
+reranker = CrossEncoder("cross-encoder/ms-marco-MiniLM-L-6-v2")
 
 # Load environment variables to get the database URL
 load_dotenv()
@@ -162,9 +166,19 @@ def document_retrieval_tool(query: Union[str, Dict[str, Any]]) -> str:
         if not retrieved_nodes:
             return "No relevant documents found for this query."
         
+         # Reranking step
+        pairs = [(search_query, node.get_content()) for node in retrieved_nodes]
+        scores = reranker.predict(pairs)
+
+         # Sort nodes by reranker score
+        ranked = sorted(zip(retrieved_nodes, scores), key=lambda x: x[1], reverse=True)
+
+        # Take top-k after reranking (e.g., 3)
+        top_nodes = [node for node, score in ranked[:3]]
+        
         # Format the retrieved context with source metadata and contextual information
         formatted_chunks = []
-        for i, node in enumerate(retrieved_nodes, 1):
+        for i, node in enumerate(top_nodes, 1):
             content = node.get_content()
             
             # Extract source file information from metadata
