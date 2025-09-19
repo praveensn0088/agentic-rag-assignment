@@ -20,7 +20,7 @@ DB_PASSWORD = "admin"
 # Construct DATABASE_URL (no need for URL encoding now)
 DATABASE_URL = f"postgresql+psycopg2://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
 
-Settings.llm = Ollama(model="llama3:8b-instruct-q4_K_M", request_timeout=500.0)
+Settings.llm = Ollama(model="llama3:8b", request_timeout=500.0, max_tokens=1024)
 
 # Load environment variables to get the database URL
 load_dotenv()
@@ -90,7 +90,7 @@ def document_retrieval_tool(query: Union[str, Dict[str, Any]]) -> str:
         
         # Initialize the vector store with connection details and hybrid search enabled
         # Check for contextual table first, fallback to regular table
-        contextual_table = "data_doc_md_contextual_20250914"
+        contextual_table = "doc_md_contextual_20250914"
         regular_table = "document_embeddings"
         
         
@@ -143,8 +143,8 @@ def document_retrieval_tool(query: Union[str, Dict[str, Any]]) -> str:
         # Create a query engine with hybrid search mode - increased retrieval for maximum tokens
         query_engine = index.as_query_engine(
             vector_store_query_mode="hybrid",
-            similarity_top_k=2,  # Increased from 5 to utilize maximum token capacity
-            sparse_top_k=2      # Increased from 5 to get more comprehensive context
+            similarity_top_k=5,  # Increased from 5 to utilize maximum token capacity
+            sparse_top_k=5      # Increased from 5 to get more comprehensive context
         )
         
         # Query using hybrid search (combines vector + text search)

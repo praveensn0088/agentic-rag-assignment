@@ -6,6 +6,7 @@ llama-index-embeddings-ollama
 llama-index-vector-stores-postgres
 llama-index-storage-docstore-postgres
 llama-index-storage-docstore-postgres
+llama-index-llms-ollama
 python-dotenv
 crewai
 crewai-tools
@@ -20,5 +21,6 @@ psycopg2-binary
 openinference-instrumentation-crewai
 arize-phoenix-otel
 openinference-instrumentation-litellm
+sentence-transformers
 # Pin numpy to avoid conflicts
 numpy<2

@@ -32,7 +32,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # --- Configuration ---
-MD_DIR = "D:\\Praveen\\AI\\Projects\\Assignments\\agentic-rag-assignment\\data\\processed\\md"
+MD_DIR = "C:\\Users\\Abcom\\Praveen\\Projects\\agentic-rag-assignment\\data\\processed\\md"
 
 # Database configuration
 DB_HOST = "localhost"
@@ -47,9 +47,9 @@ DATABASE_URL = f"postgresql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NA
 TABLE_NAME = "doc_md_contextual_20250914"
 EMBED_DIM = 768
 
-Settings.llm = Ollama(model="llama3:8b-instruct-q4_K_M")
+Settings.llm = Ollama(model="llama3:8b")
 # Contextual RAG Configuration
-CONTEXT_LLM_MODEL = "llama3:8b-instruct-q4_K_M"
+CONTEXT_LLM_MODEL = "llama3:8b"
 OLLAMA_BASE_URL = "http://localhost:11434"
 
 # Prompts for contextual retrieval

@@ -72,16 +72,16 @@ def list_models():
     return {
         "object": "list",
         "data": [
-            {
-                "id": "crew-ai-rag",
-                "object": "model", 
-                "created": 1677652288,
-                "owned_by": "crew-ai-rag",
+             {
+                "id": "llama:8b",
+                "object": "model",
+                "created": 1677652299,       # different timestamp to distinguish
+                "owned_by": "meta-llama",
                 "permission": [],
-                "root": "crew-ai-rag",
+                "root": "llama:8b",
                 "parent": None,
-                "max_tokens": 131072,        # Updated to match gemma3:4b max tokens
-                "context_length": 131072     # Updated to match gemma3:4b context length
+                "max_tokens": 8192,          # typical context length for llama2/3 8B models
+                "context_length": 8192
             }
         ]
     }
@@ -92,7 +92,7 @@ def chat_completions(request: ChatCompletionRequest):
     OpenAI-compatible endpoint to interact with the CrewAI RAG pipeline.
     """
     # Extract the last user message as the query
-    user_message = next((msg["content"] for msg in reversed(request.messages) if msg["role"] == "user"), None)
+    user_message = next((msg["content"] for msg in reversed(request.messages)), None)
 
     if not user_message:
         return {"error": "No user message found"}

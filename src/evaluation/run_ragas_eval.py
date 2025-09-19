@@ -9,8 +9,11 @@ from ragas.metrics import (
     context_recall,
     context_precision,
 )
+
 from dotenv import load_dotenv
-from llama_index.llms.ollama import Ollama
+# from llama_index.llms.ollama import Ollama
+from langchain_community.llms import Ollama
+
 from llama_index.core import Settings
 
 # Add the project root to the Python path to allow importing from 'src'
@@ -52,6 +55,22 @@ def run_rag_pipeline(query: str):
         print(f"Error running crew for query '{query}': {e}")
         return {"answer": "Error", "contexts": []}
 
+# ---------- sanity check (important) ----------
+def validate_dataset(ds):
+    for i, row in enumerate(ds):
+        if not row.get("question") or not isinstance(row["question"], str):
+            raise ValueError(f"Row {i} invalid question: {row.get('question')}")
+        if not row.get("answer") or not isinstance(row["answer"], str):
+            raise ValueError(f"Row {i} invalid answer: {row.get('answer')}")
+        if "contexts" not in row or not isinstance(row["contexts"], (list, tuple)):
+            raise ValueError(f"Row {i} contexts must be a list: {row.get('contexts')}")
+        for c in row["contexts"]:
+            if not isinstance(c, str) or not c.strip():
+                raise ValueError(f"Row {i} context item invalid: {c}")
+    print("Dataset validation passed.")
+
+
+
 async def main():
     """
     Main function to run the RAGAS evaluation.
@@ -90,6 +109,8 @@ async def main():
     }
     eval_dataset = Dataset.from_dict(evaluation_data)
 
+ 
+
     # --- Run the RAGAS evaluation ---
     print("\n📊 Evaluating the results with RAGAS...")
     
@@ -101,13 +122,23 @@ async def main():
         context_precision,  # Was the retrieved context precise and not full of noise?
     ]
 
-    Settings.llm = Ollama(model="llama3:8b-instruct-q4_K_M", request_timeout=500.0)
+    # Settings.llm = Ollama(model="llama3:8b",   base_url="http://localhost:11434",)
+    llm = Ollama(model="llama3:8b",   base_url="http://localhost:11434", request_timeout=700.0)
 
+
+    class PatchedOllama(Ollama):
+        def set_run_config(self, *args, **kwargs):
+            return self  # ragas won't crash anymore
+        
+    
+    # ollama_llm = Ollama(model="llama3:8b", base_url="http://localhost:11434", request_timeout=500.0, max_tokens=1024)
+    print(eval_dataset)
+    validate_dataset(eval_dataset)
     # Run the evaluation
     result = evaluate(
         dataset=eval_dataset,
         metrics=metrics,
-        llm = Settings.llm
+        llm = llm
     )
 
     print("\n🎉 Evaluation Complete!")
